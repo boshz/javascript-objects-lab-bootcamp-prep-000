@@ -10,3 +10,8 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object
 }
 
+function deleteFromObjectByKey(object, key) {
+  var goober = object[key]
+  goober.delete(key)
+  return goober
+}
