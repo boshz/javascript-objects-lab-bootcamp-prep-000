@@ -15,3 +15,4 @@ function deleteFromObjectByKey(object, key) {
   goober = delete[key]
   return goober
 }
+
